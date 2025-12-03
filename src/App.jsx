@@ -73,7 +73,7 @@ function App() {
                 setNumberAllowed((prev) => !prev);
               }}
             />
-            <label htmlFor="numberInput">Numbers</label>
+            <label htmlFor="numberInput">Number</label>
           </div>
           <div className="flex items-center gap-x-1">
             <input
@@ -84,7 +84,7 @@ function App() {
                 setCharAllowed((prev) => !prev);
               }}
             />
-            <label htmlFor="characterInput">Characters</label>
+            <label htmlFor="characterInput">Character</label>
           </div>
         </div>
       </div>
