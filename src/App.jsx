@@ -34,11 +34,11 @@ function App() {
     <>
       <div className="w-full max-w-3xl mx-auto shadow-md rounded-lg px-8 py-8 my-12 text-orange-500 bg-gray-800">
         <h1 className="text-white text-center my-3">Password Generator</h1>
-        <div className="flex shadow rounded-lg overflow-hidden mb-4 bg-white">
+        <div className="flex shadow rounded-lg overflow-hidden mb-8 bg-white">
           <input
             type="text"
             value={password}
-            className="outline-none w-full py-1 px-3"
+            className="outline-none w-full py-2 px-4"
             placeholder="password"
             readOnly
             ref={passwordRef}
